@@ -1,10 +1,16 @@
-import './style.css'
+import "./style.css";
 
-export function ToDoList(){
-  return(
+export function ToDoList() {
+  return (
     <div>
-      <input type="text" />
-      <button>Adicionar</button>
+      <div><input type="text" /></div>
+      <button>
+        Adicionar
+      </button>
+      <ul>
+        <li>Item 1</li>
+      </ul>
+      
     </div>
-  )
+  );
 }
