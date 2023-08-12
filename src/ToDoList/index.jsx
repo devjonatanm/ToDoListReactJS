@@ -41,7 +41,7 @@ export function ToDoList() {
       </button>
       <ul className="border-gray-200 rounded overflow-hidden shadow">
         {state.tasks.map((task) => (
-          <li className="px-4 py-2 bg-white hover:bg-sky-100 hover:text-sky-900 border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out flex justify-between">
+          <li key={1} className="px-4 py-2 bg-white hover:bg-sky-100 hover:text-sky-900 border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out flex justify-between">
             <span>{task.name}</span>
             <button
               onClick={(e) => setInputValue(e.target.parentElement.remove())}
