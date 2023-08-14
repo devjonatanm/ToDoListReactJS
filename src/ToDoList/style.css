@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body{
-    display: flex;
-    justify-content: center;
-} */
+a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: #f30;
+  font-weight: bolder;
+  font-size: 18px;
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+}

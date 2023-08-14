@@ -1,6 +1,7 @@
 # ToDoList com ReactJS + TailWind
 # [Clique aqui para ver este projeto em funcionamento](https://sensational-druid-0dc853.netlify.app/)
-![](image.jpg)
+![](image.gif)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

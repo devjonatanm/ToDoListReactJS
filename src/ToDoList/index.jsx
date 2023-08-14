@@ -19,7 +19,7 @@ export function ToDoList() {
 
   return (
     <div className="w-3/4 max-w-[400px] mx-auto">
-      <div className="bg-white py-6 px-4 rounded shadow mt-32">
+      <div className="bg-white py-6 px-4 rounded shadow mt-20">
         <div className="w-full">
           <input
             value={inputValue}
@@ -36,7 +36,7 @@ export function ToDoList() {
           setInputValue("");
         }}
         className="mt-2 py-2 flex items-center justify-center bg-red-500 rounded w-full"
-      >
+        >
         Adicionar
       </button>
       <ul className="border-gray-200 rounded overflow-hidden shadow">
@@ -52,6 +52,7 @@ export function ToDoList() {
           </li>
         ))}
       </ul>
+      <a href="http://https://github.com/devjonatanm">@devjonatanm</a>
     </div>
   );
 }
